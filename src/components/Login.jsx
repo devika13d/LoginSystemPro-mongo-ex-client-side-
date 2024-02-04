@@ -60,8 +60,8 @@ function Login() {
 
       navigate('/dashboard');
     } catch (error) {
-      console.error(error);
-      setLoginError('An error occurred during login.');
+      console.error(error.response);
+      setLoginError('An error occurred during login.',error.response.data);
     } finally {
       setLoading(false);
     }
