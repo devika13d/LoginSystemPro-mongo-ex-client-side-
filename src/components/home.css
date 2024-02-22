@@ -1,0 +1,20 @@
+img{
+    background-repeat: no-repeat;
+    max-width: 900px;
+    max-height: 900px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:300px;
+    margin-left: 600px;
+    animation: rea 1s alternate infinite;
+  }
+  body{
+    background-color: black;
+  }
+  @keyframes rea {
+    0%{
+        transform: rotate(360deg);
+    }
+  }

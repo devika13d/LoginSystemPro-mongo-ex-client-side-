@@ -1,11 +1,16 @@
 import React from 'react'
 import Naviga from './Naviga'
+import './home.css'
+import rea from './react.png'
 function Home() {
   return (
     <div>
-      <Naviga/>
-
+      <Naviga />
+      <div>
+        <img src={rea} alt="" />
+      </div>
     </div>
+
   )
 }
 
